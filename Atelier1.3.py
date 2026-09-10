@@ -10,7 +10,7 @@ unites = {
     "t": 10**4
 }
 
-#je suis la même personne
+#je ne suis pas la même personne
 
 def conversion_masse(unité_actuelle, nouvelle_unité, poids):
     return poids * unites[unité_actuelle] / unites[nouvelle_unité]
